@@ -34,7 +34,8 @@ window.plugin.scaleBar.setup  = function() {
       $('head').append('<style>.leaflet-control-scale { position: absolute; bottom: 15px; right: 0px; margin-bottom: 20px !important; } </style>');
       window.map.addControl(new L.Control.Scale({position: 'bottomright', imperial: false, maxWidth: 100}));
   } else {
-      $('head').append('<style>.leaflet-control-scale { position: absolute; top: 2px; left: 40px; } </style>');
+      // $('head').append('<style>.leaflet-control-scale { position: absolute; top: 2px; left: 40px; } </style>');
+      $('head').append('<style>.leaflet-control-scale { position: absolute; top: 20px; left: 40px; } </style>');
       window.map.addControl(new L.Control.Scale({position: 'topleft', imperial: false, maxWidth: 200}));
   }
 };
