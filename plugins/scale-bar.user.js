@@ -1,5 +1,5 @@
 // ==UserScript==
-// @id             iitc-plugin-scale-bar-2@breunigs
+// @id             iitc-plugin-scale-bar-2@breunigs2
 // @name           IITC plugin: scale bar 2
 // @category       Controls
 // @version        0.1.0.@@DATETIMEVERSION@@
