@@ -24,9 +24,9 @@
 
 
 // use own namespace for plugin
-window.plugin.scaleBar = function() {};
+window.plugin.scaleBar2 = function() {};
 
-window.plugin.scaleBar.setup  = function() {
+window.plugin.scaleBar2.setup  = function() {
   // Before you ask: yes, I explicitely turned off imperial units. Imperial units
   // are worse than Internet Explorer 6 whirring fans combined. Upgrade to the metric
   // system already.
@@ -39,7 +39,7 @@ window.plugin.scaleBar.setup  = function() {
   }
 };
 
-var setup =  window.plugin.scaleBar.setup;
+var setup =  window.plugin.scaleBar2  .setup;
 
 // PLUGIN END //////////////////////////////////////////////////////////
 
